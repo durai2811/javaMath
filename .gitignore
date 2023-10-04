@@ -25,5 +25,11 @@ bin/
 ### VS Code ###
 .vscode/
 
+### ignore ###
+*.class
+target/
+*.iml
+.idea/
+
 ### Mac OS ###
 .DS_Store
