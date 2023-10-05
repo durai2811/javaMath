@@ -1,0 +1,15 @@
+// find the prime Number:
+
+ step 1:
+    user input start to end number
+    Scanner class /BufferReader
+ step 2:
+    loop start to end
+        -> if, is prime number print the value.
+ step 3:
+    call the is prime method pass the value(n)
+        -> if n is less than equal to 1 return false
+        -> if n is equal to 2 return true
+        -> if n divide 2 reminder equal to 0 return false
+        -> loop start with 2 and condition Math.sqrt(n)
+            -> every iteration if n%i==0 return false otherwise true.
